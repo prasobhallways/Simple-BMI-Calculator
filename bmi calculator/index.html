@@ -12,13 +12,18 @@
 </head>
 <body>
     <div class="container">
-        <h1>BMI CALCULATOR</h1>
+        <h1>SIMPLE BMI CALCULATOR</h1>
+        <h6>a course project by Prasobh</h6>
+        <p id="warning">If you have or think you might have an eating disorder, we advise you <br> not to use the BMI Calculator and get further advice from your GP. Use this</b>
+        <br>calculator to check your body mass index and find out if you're a healthy weight.</br>
+        </p>
         <div class="box">
-            <input ty id="weight" placeholder="enter your weight" />
-            <input id="height" placeholder="enter your height in cm" />
+            <input ty id="weight" placeholder="Enter your exact weight in kilograms" />
+            <input id="height" placeholder="Enter your exact height in centimeters" />
             <button onclick="calculate()">Calculate</button>
         
-            <p>BMI = <span id="bmi"></span></p>
+            <p>
+                <b>Your Body Mass Index is</b>  <span id="bmi"></span></p>
             <p id="result"></p>
             
         </div>

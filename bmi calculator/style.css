@@ -11,6 +11,12 @@ h1{
     text-align: center;
 }
 
+
+h6{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
 .container{
 display: grid;
 place-content: center;
@@ -45,4 +51,9 @@ button{
 
 p{
     margin-top: 20px;
+}
+
+#warning{
+    text-align: center;
+    margin-bottom: 20px;
 }
